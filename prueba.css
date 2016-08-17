@@ -1,3 +1,4 @@
+*{outline:1px solid rgba(255,0,0,0.8);}
 
 
 .link {
@@ -327,9 +328,15 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
   margin: 70px;
   overflow: hidden;
 }
+.crimson{
+  font-family: 'Crimson Text', serif;
+}
+/*.hover{
+  padding: 2% 10%;
+}*/
 .hover img {
   transition: all 0.4s ease-in-out;
-  width: 100%:
+  width: 60%:
 }
 .hover .mascara {
   background-color: rgb(255, 191, 0);
