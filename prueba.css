@@ -365,13 +365,13 @@ body section.color-box {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 5;
 }
 .overlay-wash, .moradito{
     height: 100%;
     width: 100%;
 }
-.section-6 article {
+.moradito article {
     position: absolute;
     top: 46%;
     z-index: 10;
@@ -380,11 +380,11 @@ body section.color-box {
     right: 0;
     opacity: 0;
 }
-.section-6 article, body h1 {
+.moradito article, body h1 {
     font-size: 24px;
     text-align: center;
 }
-.section-6 .research-photo {
+.moradito .research-photo {
     height: 50%;
     width: -webkit-calc(100% / 3);
     width: calc(100% / 3);
@@ -394,34 +394,26 @@ body section.color-box {
     background-repeat: no-repeat;
     background-position: center;
 }
-.section-6 .research-photo.photo-1 {
+.moradito .research-photo.photo-1 {
     background-image: url(images/UM1.jpg);
-    z-index: -3
 
 }
-.section-6 .research-photo.photo-2 {
+.moradito .research-photo.photo-2 {
     background-image: url(images/UM2.jpg);
-    z-index: -3
 }
-.section-6 .research-photo.photo-3 {
+.moradito .research-photo.photo-3 {
     background-image: url(images/UM3.jpg);
-    z-index: -3
 }
-.section-6 .research-photo.photo-4 {
+.moradito .research-photo.photo-4 {
     background-image: url(images/UM4.jpg);
-    z-index: -3
 }
-.section-6 .research-photo.photo-5 {
+.moradito .research-photo.photo-5 {
     background-image: url(images/UM5.jpg);
-    z-index: -3
 }
-.section-6 .research-photo.photo-6 {
+.moradito .research-photo.photo-6 {
     background-image: url(images/UM6.jpg);
-    z-index: -3
 }
-.adelante{
-  z-index: 900;
-}
+
 /*fotomia*/
 .fondoplomo{
   background-color: #ebebeb ;
