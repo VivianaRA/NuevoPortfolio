@@ -320,7 +320,7 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
   margin-top: 100px;
 }
 .centro{
-  padding: 0% 5% 10% 20%;
+  padding: 0% 5% 15% 17%;
 }
 /*proyects */
 .rowskills{
@@ -367,14 +367,14 @@ body section.color-box {
     left: 0;
     z-index: 3;
 }
-.overlay-wash, .section-6 {
+.overlay-wash, .moradito{
     height: 100%;
     width: 100%;
 }
 .section-6 article {
     position: absolute;
     top: 46%;
-    z-index: 2;
+    z-index: 10;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -389,28 +389,38 @@ body section.color-box {
     width: -webkit-calc(100% / 3);
     width: calc(100% / 3);
     float: left;
-    position: relative;
+    position: relative;;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .section-6 .research-photo.photo-1 {
     background-image: url(images/UM1.jpg);
+    z-index: -3
+
 }
 .section-6 .research-photo.photo-2 {
     background-image: url(images/UM2.jpg);
+    z-index: -3
 }
 .section-6 .research-photo.photo-3 {
     background-image: url(images/UM3.jpg);
+    z-index: -3
 }
 .section-6 .research-photo.photo-4 {
     background-image: url(images/UM4.jpg);
+    z-index: -3
 }
 .section-6 .research-photo.photo-5 {
     background-image: url(images/UM5.jpg);
+    z-index: -3
 }
 .section-6 .research-photo.photo-6 {
     background-image: url(images/UM6.jpg);
+    z-index: -3
+}
+.adelante{
+  z-index: 900;
 }
 /*fotomia*/
 .fondoplomo{
