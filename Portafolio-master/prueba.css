@@ -1,9 +1,9 @@
-*{outline:1px solid rgba(255,0,0,0.8);}
+
 
 .link {
   display: inline-block;
   vertical-align: top;
-  width: 100px;
+  width: 160px;
   height: 34px;
   line-height: 36px;
   text-transform: uppercase;
@@ -73,12 +73,13 @@ nav{
   text-align: center;
 }
 .primary-menu{
-  padding-left: 25%;
+  padding-left: 17%;
 }
 .primary-menu ul li {
   list-style: none;
   display: inline-block;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 .primary-menu ul li a {
@@ -94,9 +95,10 @@ nav{
    }
 .scrolling {
   position: fixed;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.99);
   width: 100%;
   transition-duration: 3s;
+  z-index: 1000;
 }
 .abajo{
   padding-top:180px;
@@ -313,10 +315,16 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
     transform: none;
   }
 }
-
+/*skills*/
+.padding-top{
+  margin-top: 100px;
+}
+.centro{
+  padding: 0% 5% 10% 20%;
+}
 /*proyects */
 .rowskills{
-  margin: 40px;
+  margin: 70px;
   overflow: hidden;
 }
 .hover img {
@@ -329,11 +337,11 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
   opacity: 1;
   transition: all 0.4s ease-in-out;
   position: absolute;
-  width: 100%;
+  width: 96%;
   height: 100%;
 
 }
-.ejemplo-3 h2 p{
+.hover h2 p{
   color: #000;
 }
 .hover:hover .mascara {
@@ -341,7 +349,7 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
 
 }
 .hover:hover .contenedor-img {
-  transform: translateX(300px);
+  transform: translateX(200px);
 }
 
 
@@ -404,7 +412,18 @@ body section.color-box {
 .section-6 .research-photo.photo-6 {
     background-image: url(images/UM6.jpg);
 }
+/*fotomia*/
+.fondoplomo{
+  background-color: #ebebeb ;
+}
+.imagen{
+  height: 100px;
+  width: 100px;
+}
 /*footer*/
 footer{
   background-color:#FFBF00;
+}
+.prepie{
+  padding-top: 50px;
 }
