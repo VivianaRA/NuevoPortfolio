@@ -404,7 +404,18 @@ body section.color-box {
     background-image: url(images/UM6.jpg);
     z-index: -20;
 }
+@media all and (max-width: 600px) {
 
+  .moradito .research-photo {
+      height: 50%;
+      width: -webkit-calc(100% / 2);
+      width: calc(100% / 2);
+      float: left;
+      position: relative;;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 /*fotomia*/
 .fondoplomo{
   background-color: #ebebeb ;
