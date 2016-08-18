@@ -1,5 +1,7 @@
+*{outline:1px solid rgba(255,0,0,0.8);}
+
 section{
-  width: 100%;
+  max-width: 100%;
 }
 .link {
   display: inline-block;
@@ -436,4 +438,17 @@ footer{
 }
 .prepie{
   padding-top: 50px;
+  padding-bottom: -50px;
+}
+.rowfooter{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.iconos{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.max{
+  height: 60%;
+  width: 60%;
 }
