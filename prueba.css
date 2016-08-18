@@ -296,6 +296,9 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
   padding: 0% 5% 15% 17%;
 }
 /*proyects */
+.centro{
+  padding-left: 49%;
+}
 .rowskills{
   margin: 70px;
   overflow: hidden;
