@@ -16,7 +16,9 @@ section{
   margin: 10px;
   position: relative;
 }
-
+body{
+  background-color: #ebebeb;
+}
 li a {
   margin-righ:20px;
   text-decoration:none;
@@ -321,6 +323,7 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
 }
 .espacios{
   overflow: hidden;
+  margin-bottom: 9%;
 }
 .hover h2 p{
   color: #000;
@@ -404,8 +407,7 @@ body section.color-box {
     background-image: url(images/UM6.jpg);
     z-index: -20;
 }
-@media all and (max-width: 600px) {
-
+/*
   .moradito .research-photo {
       height: 50%;
       width: -webkit-calc(100% / 2);
@@ -415,10 +417,10 @@ body section.color-box {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-    }
+    }*/
 /*fotomia*/
 .fondoplomo{
-  background-color: #ebebeb ;
+  background-color: #FFF ;
 }
 .imagen{
   height: 300px;
