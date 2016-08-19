@@ -291,6 +291,7 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
 }
 .centro{
   padding: 0% 5% 15% 17%;
+
 }
 /*proyects */
 .centro{
@@ -418,7 +419,15 @@ body section.color-box {
   height: 300px;
   width: 230px;
   margin-left: 40%;
+  margin-bottom: 1%;
 }
+.cv {
+			width:500px;
+			position:relative;
+      margin-left: 46%;
+      margin-bottom: 5%;
+		}
+
 /*footer*/
 footer{
   background-color:#FFBF00;
