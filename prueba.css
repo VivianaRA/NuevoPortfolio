@@ -440,6 +440,12 @@ footer{
   height: 60%;
   width: 60%;
 }
+.piedepagina{
+}
+.linea{
+  width: 70%;
+  align:center;
+}
 @media (max-width:750px){
   .vivi{
     font-size: 30px;
