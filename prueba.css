@@ -1,4 +1,5 @@
 
+
 section{
   max-width: 100%;
 }
@@ -55,12 +56,7 @@ body{
 header{
   position: fixed;
 }
-.divnegro{
-  position: relative;
-	height: 700px;
-	margin: 0px;
-	background-color: rgba(0,0,0,0.9);
-}
+
 .portada {
   width: 100%;
   margin: 0 auto;
@@ -115,10 +111,10 @@ nav{
   bottom: 10%;
   left:47%;
 }
-@@media only screen and (max-width: 500px)  {
-
+.vivi{
+  font-size:70px;
 }
-.responsive a{
+/*.responsive a{
     margin: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -134,10 +130,10 @@ header .open-overlay {
     padding: 10px 0 10px 30px;
     font-size: 6px;
 }
-@media (max-width: 600px)
+@media (max-width: 600px){
 header .open-overlay {
-    display: block;
-}
+    display: block;}
+    }
 header .open-overlay .menu-overlay {
     color: #2D2D2D;
 }
@@ -147,14 +143,14 @@ header .nav-wrapper {
     width: 100%;
     padding: 30px 0;
 }
-@media (max-width: 600px)
+@media (max-width: 600px){
 header .nav-wrapper {
     height: 100vh;
     background-color: #2D2D2D;
     text-align: left;
     padding-left: 30px;
     display: none;
-}
+} }
 header .nav-wrapper, header .open-overlay {
     z-index: 100;
 }
@@ -163,12 +159,12 @@ header .nav-wrapper .close {
     margin-bottom: 50px;
     display: none;
 }
-@media (max-width: 600px)
+@media (max-width: 600px){
 header .nav-wrapper .close {
     display: inline-block;
-}
+} }*
 /*menu responsive*/
-header a {
+/*header a {
     text-decoration: none;
 }
 
@@ -256,7 +252,7 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
 
     background: #fff;
 }
-
+ }
 @media all and (max-width: 600px) {
     header .nav-wrapper .main-nav .menu-item {
         display:block;
@@ -273,7 +269,7 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
         width: 0;
         background: 0 0
     }
-}
+}*/
 
 /*aboutme */
 .box{
@@ -450,4 +446,9 @@ footer{
 .max{
   height: 60%;
   width: 60%;
+}
+@media (max-width:750px){
+  .vivi{
+    font-size: 20px;
+  }
 }
