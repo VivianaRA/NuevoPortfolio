@@ -356,15 +356,7 @@ body section.color-box {
     width: 100%;
     z-index: -4;
 }
-.moradito view {
-    position: absolute;
-    top: 46%;
-    z-index: 100;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    opacity: 0;
-}
+
 .moradito p, body p .view {
     font-size: 24px;
     position: absolute;
@@ -442,6 +434,7 @@ footer{
 .iconos{
     margin-right: 15px;
     margin-left: 15px;
+    margin:
 }
 .max{
   height: 60%;
@@ -449,9 +442,19 @@ footer{
 }
 @media (max-width:750px){
   .vivi{
-    font-size: 20px;
+    font-size: 30px;
   }
   .rowskills{
     margin: 10px;
+  }
+  .moradito .research-photo {
+      height: 50%;
+      width: -webkit-calc(100% / 2);
+      width: calc(100% / 2);
+      float: left;
+      position: relative;;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
   }
 }
