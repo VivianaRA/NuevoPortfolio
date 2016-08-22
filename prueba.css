@@ -1,4 +1,4 @@
-
+*{outline:1px solid rgba(255,0,0,0.8);}
 
 section{
   max-width: 100%;
@@ -422,7 +422,7 @@ body section.color-box {
   margin-bottom: 1%;
 }
 .cv {
-			width:500px;
+			width:100px;
 			position:relative;
       margin-left: 46%;
       margin-bottom: 5%;
