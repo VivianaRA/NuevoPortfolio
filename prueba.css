@@ -1,4 +1,5 @@
 
+*{outline:1px solid rgba(255,0,0,0.8);}
 
 section{
   max-width: 100%;
@@ -14,7 +15,7 @@ section{
   color: #fff;
   letter-spacing: 0.1em;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 14px;
   margin: 10px;
   position: relative;
 }
@@ -22,7 +23,7 @@ body{
   background-color: #ebebeb;
 }
 li a {
-  margin-righ:20px;
+  margin-right:20px;
   text-decoration:none;
   color:#999;
   transition:all 1s;
@@ -359,7 +360,7 @@ body section.color-box {
 }
 
 .moradito p, body p .view {
-    font-size: 24px;
+    font-size: 28px;
     position: absolute;
     top: 37%;
     left: 18%;
@@ -458,7 +459,25 @@ footer{
 .gg{
   margin: 0px;
 }
+
+/*celulares!*/
+
 @media (max-width:600px){
+ .link{
+   margin: 0px;
+   width: 60px;
+   font-size: 5px;
+ }
+ li a i{
+   margin: 0px;
+   padding: 0px;
+ }
+ ul{
+   padding-left: 0px;font-size: 5px;
+ }
+ .primary-menu{
+   padding-left: 0px;
+ }
   .vivi{
     font-size: 30px;
   }
@@ -517,6 +536,9 @@ footer{
     margin-left: 36%;
   }
 }
+
+/*tablet!!!*/
+
 @media (max-width:750px) and (min-width:601px){
   .vivi{
     font-size: 30px;
