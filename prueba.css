@@ -273,9 +273,12 @@ header .nav-wrapper .main-nav .menu-item.hover-animation:after {
 }*/
 
 /*aboutme */
+.parrafo{
+  margin-top: 70px;
+}
 .box{
   height: 360px;
-  padding: 15% 20%;
+  padding: 0% 20%;
   margin-bottom: 150px;
 }
 .gray{
