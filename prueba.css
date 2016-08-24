@@ -507,6 +507,9 @@ footer{
   .sizeimage{
     margin-bottom: 6%;
   }
+  #myskills .sizeimage{
+    margin-bottom: 20px;
+  }
   #softskills h2{
     margin-bottom: 19%;
   }
@@ -593,6 +596,9 @@ footer{
   }
   .sizeimage{
     margin-bottom: 6%;
+  }
+  #myskills .sizeimage{
+    margin-bottom: 20px;
   }
   #softskills h2{
     margin-bottom: 19%;
