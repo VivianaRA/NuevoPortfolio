@@ -1,6 +1,5 @@
 
 
-
 section{
   max-width: 100%;
 }
@@ -447,7 +446,7 @@ footer{
 .iconos{
     margin-right: 15px;
     margin-left: 15px;
-    margin:
+    width: 34px;
 }
 .max{
   height: 60%;
@@ -621,5 +620,8 @@ footer{
   }
   .contenedor-img .img-responsive{
     margin-bottom: 20px;
+  }
+  .iconos{
+    margin: 0px;
   }
 }
