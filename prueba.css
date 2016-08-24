@@ -543,7 +543,7 @@ footer{
   .iconos{
     margin: 0px;
   }
-  #myskills .col-xs-4{
+  .alto{
     margin-bottom: 20px;
   }
 }
@@ -627,7 +627,7 @@ footer{
   .contenedor-img .img-responsive{
     margin-bottom: 20px;
   }
-  #myskills .col-xs-4{
+  .alto{
     margin-bottom: 20px;
   }
 }
