@@ -540,6 +540,9 @@ footer{
   .contenedor-img .img-responsive{
     margin-bottom: 20px;
   }
+  .iconos{
+    margin: 0px;
+  }
 }
 
 /*tablet!!!*/
@@ -621,7 +624,5 @@ footer{
   .contenedor-img .img-responsive{
     margin-bottom: 20px;
   }
-  .iconos{
-    margin: 0px;
-  }
+
 }
