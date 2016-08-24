@@ -497,7 +497,7 @@ footer{
       background-position: center;
   }
   .arrow{
-    left: 40%;
+    left: 44%;
   }
   #myskills h5{
     margin-bottom: 10%;
@@ -543,6 +543,9 @@ footer{
   .iconos{
     margin: 0px;
   }
+  #myskills .col-xs-4{
+    margin-bottom: 20px;
+  }
 }
 
 /*tablet!!!*/
@@ -581,7 +584,7 @@ footer{
       background-position: center;
   }
   .arrow{
-    left: 40%;
+    left: 44%;
   }
   #myskills h5{
     margin-bottom: 10%;
@@ -624,5 +627,7 @@ footer{
   .contenedor-img .img-responsive{
     margin-bottom: 20px;
   }
-
+  #myskills .col-xs-4{
+    margin-bottom: 20px;
+  }
 }
